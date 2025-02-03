@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Home Page</title>
+    <style>
+        .nhp {
+            display: flex;
+        }
+
+        img {
+            height: 100px;
+            margin-top: 40px;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        b {
+            color: white;
+            margin-top: 40px;
+        }
+
+        p {
+            color: white;
+            margin-top: 40px;
+            margin-left: 30px;
+        }
+
+        h1 {
+            font-style: normal;
+            font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+            margin: 0px 40px;
+        }
+
+        .nhpm {
+            display: grid;
+            grid-template-columns: repeat(6, 250px);
+
+        }
+
+        .wia {
+
+            display: grid;
+            grid-template-columns: repeat(6, 250px);
+        }
+
+        /* responsive webpage */
+        @media only screen and (max-width: 600px) {
+            body {
+                background-color: lightblue;
+            }
+            .nhpm{
+                display: grid;
+                grid-template-columns: repeat(1,200px);
+            }
+            .wia{
+                display: grid;
+                grid-template-columns: repeat(1,200px); 
+            }
+            .nhp{
+                flex-direction: column;
+    align-items: flex-start;
+                /* display: grid;
+                grid-template-columns: repeat(5,200px);  */
+                /* width: 200px; */
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="nhp">
+        <img src="newnetflixlogo-removebg-preview.png" style="margin-top: 0px;">
+        <b>Home</b>
+        <p>Series</p>
+        <p>Movies</p>
+        <p>Originals</p>
+        <p>Recently Added</p>
+        <p>My List</p>
+    </div>
+    <h1 style="color: white;">Trending Now</h1>
+    <div class="nhpm">
+        <img src="https://as2.ftcdn.net/v2/jpg/05/81/60/15/1000_F_581601556_W3IUOnXaaxL5ozLgIyDmJRUQq7bxmAwZ.jpg"
+            style="margin-top: 10px;margin-left: 40px;  ">
+        <img src="https://as2.ftcdn.net/v2/jpg/05/81/60/15/1000_F_581601556_W3IUOnXaaxL5ozLgIyDmJRUQq7bxmAwZ.jpg"
+            style="margin-top: 10px;margin-left: 40px;">
+        <img src="https://as2.ftcdn.net/v2/jpg/05/81/60/15/1000_F_581601556_W3IUOnXaaxL5ozLgIyDmJRUQq7bxmAwZ.jpg"
+            style="margin-top: 10px;margin-left: 40px;">
+        <img src="https://as2.ftcdn.net/v2/jpg/05/81/60/15/1000_F_581601556_W3IUOnXaaxL5ozLgIyDmJRUQq7bxmAwZ.jpg"
+            style="margin-top: 10px;margin-left: 40px;">
+        <img src="https://as2.ftcdn.net/v2/jpg/05/81/60/15/1000_F_581601556_W3IUOnXaaxL5ozLgIyDmJRUQq7bxmAwZ.jpg"
+            style="margin-top: 10px;margin-left: 40px;">
+
+    </div>
+    <h1 style="color: white;margin-top: 40px;">Watch it again</h1>
+    <div class="wia">
+        <img src="https://as2.ftcdn.net/v2/jpg/05/81/60/15/1000_F_581601556_W3IUOnXaaxL5ozLgIyDmJRUQq7bxmAwZ.jpg"
+            style="margin-top: 10px;margin-left: 40px;  ">
+        <img src="https://as2.ftcdn.net/v2/jpg/05/81/60/15/1000_F_581601556_W3IUOnXaaxL5ozLgIyDmJRUQq7bxmAwZ.jpg"
+            style="margin-top: 10px;margin-left: 40px;">
+        <img src="https://as2.ftcdn.net/v2/jpg/05/81/60/15/1000_F_581601556_W3IUOnXaaxL5ozLgIyDmJRUQq7bxmAwZ.jpg"
+            style="margin-top: 10px;margin-left: 40px;">
+        <img src="https://as2.ftcdn.net/v2/jpg/05/81/60/15/1000_F_581601556_W3IUOnXaaxL5ozLgIyDmJRUQq7bxmAwZ.jpg"
+            style="margin-top: 10px;margin-left: 40px;">
+        <img src="https://as2.ftcdn.net/v2/jpg/05/81/60/15/1000_F_581601556_W3IUOnXaaxL5ozLgIyDmJRUQq7bxmAwZ.jpg"
+            style="margin-top: 10px;margin-left: 40px;">
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header {
+            background-image: url('https://img.freepik.com/free-photo/retro-sky-collage-design_23-2151017920.jpg?t=st=1737453556~exp=1737457156~hmac=cb501744b049780b7730176546ac5f425ba600373fd16d01e36422cd5229cb5b&w=900');
+            padding: 50px 20px 20px 20px;
+            background-size: cover;
+            background-position: center;
+        }
+
+        button {
+            background-color: blue;
+            color: white;
+            padding: 5px;
+            border: none;
+            cursor: pointer;
+        }
+
+        #me {
+            width: 300px;
+            height: 300px;
+            border: 2px solid red;
+            padding-left: 50px;
+            margin-right: 20px;
+            box-shadow: rgba(190, 109, 22, 0.25) 0px 54px 55px, rgba(31, 38, 139, 0.12) 0px -12px 30px, rgba(173, 17, 176, 0.12) 0px 4px 6px, rgba(163, 150, 11, 0.17) 0px 12px 13px, rgba(42, 109, 11, 0.09) 0px -3px 5px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        #me:hover,
+        #sister:hover {
+            transform: scale(1.05);
+            box-shadow: rgba(190, 109, 22, 0.25) 0px 54px 55px, rgba(31, 38, 139, 0.12) 0px -12px 30px, rgba(173, 17, 176, 0.12) 0px 4px 6px, rgba(163, 150, 11, 0.17) 0px 12px 13px, rgba(42, 109, 11, 0.09) 0px -3px 5px;
+
+        }
+
+        #sister {
+            width: 300px;
+            height: 300px;
+            border: 2px solid red;
+            padding-left: 50px;
+            box-shadow: rgba(190, 109, 22, 0.25) 0px 54px 55px, rgba(31, 38, 139, 0.12) 0px -12px 30px, rgba(173, 17, 176, 0.12) 0px 4px 6px, rgba(163, 150, 11, 0.17) 0px 12px 13px, rgba(42, 109, 11, 0.09) 0px -3px 5px;
+
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- my profile page -->
+    <!-- header tag start here -->
+    <header>
+        <h1>
+            Hi, this is Itrat!
+        </h1>
+        <p>
+            I'm from Srinagar.
+        </p>
+        <button>Click me</button>
+    </header>
+    <!-- section starts from here -->
+    <section style="display: flex; justify-content: center; margin-top: 20px;">
+        <div id="me">
+            <h3>NAME:<span>Itrat</span></h3>
+            <p>Student</p>
+        </div>
+        <div id="sister">
+            <h3>NAME:<span>Hibaan</span></h3>
+            <p>BSC Nursing</p>
+        </div>
+    </section>
+    <!-- footer starts here -->
+    <footer>
+        <p>
+            @2025 Dynamic Landing Page. All rights reserved.
+        </p>
+    </footer>
+</body>
+
+</html>

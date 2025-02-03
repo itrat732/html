@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parent {
+            background-color: greenyellow;
+            display: flex;
+
+        }
+
+        #child1 {
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+            margin: 20px;
+            border-radius: 5px;
+            padding-left:10px;
+        }
+
+        #child2 {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            margin: 20px;
+            padding-left:10px;
+        }
+
+        #child3 {
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            margin: 20px;
+            padding-left:10px;
+        }
+        #child1:hover,#child2:hover,#child3:hover{
+            background-color: black;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="parent">
+        <h1>
+            This is a parent div
+        </h1>
+        <div id="child1">
+            <h2>
+                this is a child div 1
+            </h2>
+        </div>
+        <div id="child2">
+            <h2>
+                this is a child div 2
+            </h2>
+        </div>
+        <div id="child3">
+            <h2>
+                this is a child div 3
+            </h2>
+        </div>
+    </div>
+</body>
+
+</html>

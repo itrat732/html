@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registration Form</title>
+    <style>
+        #rf{
+             margin: 5px 200px 5px; 
+            border: 1px solid black;
+            width: 600px;
+            height: auto;
+            padding: 5px 100px 5px;
+        }
+    </style>
+    <link rel="icon" type="image" href="data:image/png;base64,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">
+</head>
+
+<body>
+    <div id="rf">
+    <form action="task.html">
+        <h1 style="text-align: center;"> Student Registration Form</h1>
+        <p>STUDENT DETAILS</p>
+        <label>First Name:</label>
+        <input type="text" placeholder="Enter your first name" required>
+        <label>Last Name:</label>
+        <input type="text" placeholder="Enter your last name" required><br><br>
+        <label>Date of Birth:</label>
+        <input type="text" placeholder="Enter date of your birth" required>
+        <label>Student ID:</label>
+        <input type="text" placeholder="Enter your id card no" required><br><br>
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">female</label><br>
+        <p>ADDRESS</p>
+        <label>Permanent Address:</label>
+        <input type="text" placeholder="Enter your Address" required><br><br>
+        <label>City:</label>
+        <input type="text" placeholder="Enter your city name"required>
+        <label>PIN Code:</label>
+        <input type="number" placeholder="Enter area pin code" required><br><br>
+        <label>Country:</label>
+        <input type="text" placeholder="Enter your Country name" required>
+        <p>CONTACT INFORMATION</p>
+        <label>Mobile Number:</label>
+        <input type="numbers" placeholder="Enter your phone no" required>
+        <label>Email:</label>
+        <input type="email" placeholder="Enter your email-id" required>
+        <p>COURSE DETAILS</p>
+        <label>Course:</label>
+        <input type="text" placeholder="Enter Course name" required><br><br>
+        <label>Choose Course Subjects:</label><br>
+        <input type="checkbox" name="java" value="JAVA">
+        <label for="mca">JAVA</label><br>
+        <input type="checkbox" name="aritificial intelligence" value="ARTIFICIAL INTELLIGENCE">
+        <label for="mca">ARTIFICIAL INTELLIGENCE</label><br>
+        <input type="checkbox" name="python" value="PYTHON">
+        <label for="mca">PYTHON</label><br>
+        <input type="checkbox" name="php" value="php">
+        <label for="mca">PHP</label><br>
+        <input type="checkbox" name="sql" value="sql">
+        <label for="mca">SQL</label><br>
+        <input type="checkbox" name="computer graphics" value="computer graphics">
+        <label for="mca">COMPUTER GRAPHICE</label><br>
+        <input type="checkbox" name="evs" value="evs">
+        <label for="mca">ENVIRONMENTAL SCIENCES</label><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    </div>
+</body>
+
+</html>
